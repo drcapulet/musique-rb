@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'sinatra'
-$LOAD_PATH << Dir.pwd + "/lib/grooveshark/lib"
-require 'lib/grooveshark/lib/grooveshark'
+$LOAD_PATH << Dir.pwd + "/grooveshark"
+require 'grooveshark'
 
 client = Grooveshark::Client.new
 
